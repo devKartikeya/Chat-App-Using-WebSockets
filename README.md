@@ -1,13 +1,13 @@
-💬 Real-Time Chat App (WebSockets)
+💬 Chat App (Vanilla JavaScript)
 
-A real-time chat application built using WebSockets, enabling instant communication between multiple users.
+A real-time chat application built using WebSockets and vanilla JavaScript, showcasing core client-server communication without any frontend frameworks.
 
 
 ---
 
 📌 About
 
-This project demonstrates how real-time communication works using WebSockets. Unlike traditional HTTP requests, WebSockets maintain a persistent connection between client and server, allowing instant data exchange.
+This project demonstrates how real-time communication works at a fundamental level using WebSockets. It focuses on direct DOM manipulation and event handling without relying on libraries or frameworks.
 
 
 ---
@@ -20,11 +20,9 @@ This project demonstrates how real-time communication works using WebSockets. Un
 
 ⚡ Instant message delivery
 
-🔄 Persistent connection using WebSockets
+🔄 Persistent WebSocket connection
 
-🧠 Username-based message identification
-
-📡 Broadcast messages to all connected clients
+🧠 Username-based chat
 
 
 
@@ -36,33 +34,11 @@ WebSocket protocol
 
 Client-server communication
 
-Persistent connections vs HTTP
+Event-driven programming
 
-Event-driven architecture
+DOM manipulation
 
 Handling multiple clients
-
-Message broadcasting
-
-
-
----
-
-🏗️ How It Works
-
-1. Client connects to the server using WebSocket.
-
-
-2. Server establishes a persistent connection.
-
-
-3. Users send messages through the socket.
-
-
-4. Server receives and broadcasts messages to all connected clients.
-
-
-5. All clients receive updates instantly
 
 ---
 
@@ -70,20 +46,20 @@ Message broadcasting
 
 1. Clone the repository:
 
-git clone https://github.com/devKartikeya/chat-app-using-websockets.git
+git clone https://github.com/devKartikeya/chat-app-vanilla.git
 
 
-2. Install dependencies (for server):
+2. Install dependencies:
 
 npm install
 
 
-3. Start the server:
+3. Run the server:
 
 node server.js
 
 
-4. Open the client in browser (or serve it locally)
+4. Open index.html in browser
 
 
 
@@ -92,37 +68,16 @@ node server.js
 
 🎯 Goals
 
-Understand real-time communication
+Understand real-time systems at a low level
 
-Learn WebSocket implementation
+Build chat functionality without frameworks
 
-Handle multiple users in a chat system
+Strengthen JavaScript fundamentals
 
-
-
----
-
-📈 Future Improvements
-
-Add private messaging
-
-Add typing indicators
-
-Store chat history
-
-Add authentication
-
-
-
----
-
-🤝 Contribution
-
-This is a learning project, but suggestions and improvements are welcome!
 
 
 ---
 
 ⭐ Support
 
-If you find this helpful, consider giving it a star ⭐
+If you like this project, consider giving it a star ⭐
